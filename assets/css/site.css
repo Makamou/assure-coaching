@@ -639,3 +639,8 @@ strong { font-weight: 600; color: var(--ink); }
   .site-header, .site-footer, .closing, .video, .nav-toggle { display: none !important; }
   .feature-band, .mission { background: none; color: #000; }
 }
+
+
+                 /* Fix: CDN-crop wrapper span collapses to 0 width inside the flex layout */
+.about-portrait > span { width: 200px; flex-shrink: 0; }
+@media (max-width: 800px) { .about-portrait > span { width: 170px; } }
