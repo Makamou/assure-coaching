@@ -355,6 +355,10 @@ strong { font-weight: 600; color: var(--ink); }
 .book-sub { font-family: var(--font-display); font-style: italic; font-size: 1.3rem; color: var(--ink-2); margin: 14px 0 20px; }
 .book-copy > p:not(.eyebrow):not(.book-sub) { color: var(--muted); max-width: 40em; }
 @media (max-width: 760px) { .book { grid-template-columns: minmax(0, 1fr); } .book-cover { max-width: 240px; } }
+.book-compact { grid-template-columns: minmax(0, 150px) minmax(0, 1fr); gap: clamp(28px, 5vw, 48px); }
+.book-cover-sm { max-width: 150px; }
+.book-compact .book-sub { margin-bottom: 14px; }
+@media (max-width: 760px) { .book-compact { grid-template-columns: minmax(0, 1fr); } .book-cover-sm { max-width: 150px; } }
 
 /* ---------- Closing CTA ---------- */
 .closing { background: radial-gradient(900px 500px at 85% 20%, rgb(201 161 74 / 18%), transparent 60%), var(--ink); color: #fff; padding-block: clamp(72px, 9vw, 120px); }
