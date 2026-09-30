@@ -139,7 +139,7 @@ strong { font-weight: 600; color: var(--ink); }
 .site-header.is-scrolled { border-bottom-color: var(--line); box-shadow: 0 8px 24px -20px rgb(20 33 61 / 35%); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: var(--header-h); }
 .brand { display: block; flex-shrink: 0; border-radius: 6px; }
-.brand-logo { width: 186px; height: auto; }
+.brand-logo { width: 220px; height: auto; }
 .site-nav { display: flex; align-items: center; gap: 12px; }
 .nav-list { list-style: none; display: flex; align-items: center; gap: 2px; }
 .nav-list a {
@@ -192,7 +192,7 @@ strong { font-weight: 600; color: var(--ink); }
 }
 @media (max-width: 480px) {
   :root { --header-h: 68px; }
-  .brand-logo { width: 150px; }
+  .brand-logo { width: 175px; }
   .nav-toggle-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   .nav-toggle { padding: 0 15px; min-width: 48px; }
 }
