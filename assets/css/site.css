@@ -365,7 +365,7 @@ strong { font-weight: 600; color: var(--ink); }
 @media (max-width: 760px) { .blog-grid { grid-template-columns: minmax(0, 1fr); } }
 .blog-card { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: #fff; transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
 .blog-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
-.blog-card-img { display: block; width: 100%; aspect-ratio: 16/10; object-fit: cover; }
+.blog-card-img { display: block; width: 100%; aspect-ratio: 1200/630; object-fit: cover; }
 .blog-card-body { padding: 26px 28px 30px; display: flex; flex-direction: column; flex: 1; }
 .blog-card-date { font-size: .85rem; color: var(--muted); letter-spacing: .03em; }
 .blog-card-body h3 { margin: 10px 0 12px; font-size: 1.28rem; line-height: 1.28; }
